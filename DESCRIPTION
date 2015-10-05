@@ -1,0 +1,16 @@
+Package: dplyrpggeo
+Type: Package
+Title: Convenience functions for working with PostGIS geospatial data using dplyr.
+Version: 0.1
+Date: 2015-09-25
+Author: Brad Dixon
+Maintainer: Brad Dixon <rbdixon@gmail.com>
+Depends: dplyr (>= 0.4.3), RPostgreSQL (>= 0.4), assertthat
+SystemRequirements: PostgreSQL with PostGIS extensions
+Description: This package extends dplyr's native PostgreSQL capabilities with functions for
+ working with geospatial data stored using the PostGIS extensions to PostgreSQL.
+License: MIT
+LazyData: TRUE
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
